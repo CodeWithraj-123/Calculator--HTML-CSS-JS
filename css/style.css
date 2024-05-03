@@ -1,0 +1,35 @@
+.continer {
+    background-color: rgb(95, 93, 93);
+    width: 22vw;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.button {
+    padding: 15px;
+    border: 2px solid black;
+    margin: 0 8px;
+    border-radius: 15px;
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+    font-size: 19px;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) ;
+}
+
+.button:hover{
+    background-color: rgba(241, 241, 241, 0.562);
+}
+
+.row {
+    margin: 8px 0px;
+}
+
+.row input {
+    margin: 2px;
+    padding: 12px 9px;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-size: 19px;
+}
